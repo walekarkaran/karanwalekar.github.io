@@ -9,3 +9,13 @@ body {
     width: 100%;
     min-width: 0;
 }
+
+/* Resume update: bullet lists, project tags and links inside timeline entries */
+.timeline article ul{margin:12px 0 16px;max-width:760px}
+.dark ul{color:#bbb}
+.dark .meta{margin:0 0 6px}
+.timeline article .tags{margin-top:6px}
+.timeline .tags span{font-size:10.5px;padding:6px 9px;color:var(--ink);font-weight:600}
+.project-link{margin:16px 0 0}
+.project-link a{text-decoration:underline;font-weight:700;font-size:13px}
+.grid2 > div > .meta:first-child{margin:0 0 6px}
